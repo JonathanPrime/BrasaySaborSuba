@@ -274,6 +274,13 @@ img {
   font-family: 'piercejamesonscript' !important;
 }
 
+.service {
+  background: var(--palet-2) url(../images/vectores/patron-2-dark.svg) repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 9% !important;
+}
+
 .service-box {
   display: -ms-grid;
   display: grid;
@@ -588,11 +595,9 @@ img {
 /* end own about */
 
 .reviews {
-  background: url(../images/resource-maracas.png), var(--wood-2);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: right;
-  background-position-y: center;
+  background: var(--palet-2) url(../images/vectores/patron-2-dark.svg) repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .heading .reviews-title {
@@ -631,8 +636,9 @@ img {
 
 .reviews .box-container .box h3 {
   font-size: 2rem;
+  font-family: 'insaniburger';
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--black);
 }
 
 .reviews .box-container .box p {
@@ -648,7 +654,7 @@ img {
 
 .reviews .box-container .box .stars i {
   font-size: 1.7rem;
-  color: var(--palet-2);
+  color: var(--palet-1);
 }
 
 .contact .row {
@@ -705,6 +711,7 @@ img {
 
 .contact .row .form .icons-container .icons p {
   font-size: 1.8rem;
+  word-break: break-word;
   line-height: 2;
   color: var(--black);
 }
@@ -838,6 +845,7 @@ img {
 .footer .box-container .box a {
   font-size: 1.6rem;
   line-height: 2;
+  word-break: break-word;
   color: var(--gray);
   padding: .5rem 0;
   display: block;
