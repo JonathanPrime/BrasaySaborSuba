@@ -276,7 +276,7 @@ img {
 
 .service {
   background: var(--palet-2) url(../images/vectores/patron-2-dark.svg) repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   padding: 2rem 9% !important;
 }
@@ -478,7 +478,7 @@ img {
 
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
-  max-width: 100%;
+  max-width: 95%;
   margin: 1rem auto 1rem;
 }
 
@@ -596,7 +596,7 @@ img {
 
 .reviews {
   background: var(--palet-2) url(../images/vectores/patron-2-dark.svg) repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
@@ -1262,6 +1262,10 @@ input.whats-input[type=text]:focus {
 @media (max-width: 768px) {
   .blogs .box-container .box .image {
     height: 32rem;
+  }
+
+  .service, .reviews {
+    background-size: cover;
   }
 
   .blogs .box-container {
