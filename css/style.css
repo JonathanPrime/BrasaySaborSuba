@@ -80,7 +80,7 @@ section {
   font-family: 'insaniburger';
   font-size: 7rem;
   margin-top: -4rem;
-  color: var(--white);
+  color: var(--palet-1);
 }
 
 p {
@@ -330,7 +330,7 @@ img {
 /*========== MENU ==========*/
 
 .menu {
-  background: var(--palet-1) url(../images/vectores/patron-1.svg) repeat ;
+  background: var(--white) url(../images/vectores/patron-1.svg) repeat ;
   background-size: contain;
   background-position: center;
   padding: 2rem 9% !important;
@@ -351,7 +351,10 @@ img {
   display: flex;
   opacity: 1 !important;
   flex-direction: column;
-  background-color: var(--black);
+  background: linear-gradient(343deg, rgba(217, 32, 38, 1) 0%, rgba(255, 116, 0, 1) 100%) !important;
+  background-size: contain !important;
+  background-position-y: center !important;
+  background-position-x: center !important;
   border-radius: 2rem;
   -webkit-box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.58);
   -moz-box-shadow: 0px 16px 34px -3px rgba(48, 48, 48, 0.58);
@@ -845,7 +848,7 @@ img {
 .footer .box-container .box a {
   font-size: 1.6rem;
   line-height: 2;
-  word-break: break-word;
+  word-break: break-all;
   color: var(--gray);
   padding: .5rem 0;
   display: block;
