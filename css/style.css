@@ -234,6 +234,11 @@ img {
   width: 100%;
 }
 
+.home-img, img {
+  width: 80%;
+  text-align: center;
+}
+
 .home .content {
   max-width: 80%;
   text-align: center;
